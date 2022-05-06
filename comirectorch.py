@@ -11,6 +11,7 @@ import time
 from collections import defaultdict
 import numpy as np
 import torch
+from torch import nn
 import faiss
 
 # parameters
@@ -24,7 +25,7 @@ batch_size = 128
 maxlen = 20
 num_interest = 4
 lr = 0.001
-max_iter = 100
+max_iter = 1000
 patience = 20
 test_iter = 50
 
@@ -37,7 +38,8 @@ test_iter = 50
 # load data
 
 
-#train
+# train
 
 
-#valid
+# valid
+
